@@ -1,0 +1,277 @@
+{
+  "modules": [
+    {
+      "id": "M1",
+      "title": "Country & Cultural Dimensions Overview",
+      "author": "Caroline Auer",
+      "slides": "3–7",
+      "cq_focus": ["Drive", "Knowledge"],
+      "learning_objectives": [
+        "Interpret India's six Hofstede scores and their engineering-team implications",
+        "Distinguish between national cultural tendencies and individual behavior",
+        "Predict which Hofstede dimensions will surface first in a U.S.–India engineering project"
+      ],
+      "drive_scenario": "Your company is opening an engineering center in Pune. Week 1: you email your Indian counterpart asking for a direct 'yes or no' on a spec change. No reply for three days.",
+      "knowledge_topics": [
+        "India macro context: fifth-largest economy, 3.1M engineering grads/year, 100+ unicorns",
+        "Six Hofstede dimensions with engineering-specific interpretations",
+        "High PDI (77): hierarchy, deference, top-down decisions",
+        "Moderate collectivism (IDV 48): in-group loyalty, collective credit",
+        "Moderate masculinity (MAS 56): achievement-oriented but welfare matters",
+        "Low UAI (40): ambiguity tolerance, Jugaad improvisation culture",
+        "Long-term orientation (LTO 51): balanced tradition/pragmatism",
+        "Restraint (IVR 26): controlled gratification, work-first norms"
+      ],
+      "strategy_framework": "High-PDI pre-meeting checklist: Who are the decision-makers? Have senior sponsors been briefed privately first? Is silence from a subordinate agreement or avoidance?",
+      "action_items": [
+        { "do": "Address senior engineers by title (Dr./Mr./Ms.) until invited otherwise", "avoid": "First-name-only email introductions without relationship groundwork", "reason": "PDI 77 — titles signal respect and position you as a serious counterpart" },
+        { "do": "Copy the most senior person on emails, even informational ones", "avoid": "Flat org chart assumptions — skipping hierarchy in communications", "reason": "Hierarchy drives information flow; exclusion can stall projects" },
+        { "do": "Build relationship before agenda — open meetings with personal check-ins", "avoid": "Starting with the deliverable and skipping rapport", "reason": "Trust precedes commitment in collectivist, high-PDI cultures" }
+      ],
+      "branching_scenario": {
+        "setup": "Your Indian team lead goes quiet after you send a design-review request. What do you do?",
+        "decision_points": [
+          {
+            "choice_A": "Send a follow-up escalating to your manager",
+            "feedback_A": "Incorrect. Escalating before relationship-building signals distrust and may embarrass the lead. (Hofstede et al., 2010; AtoZ International Business, n.d.)",
+            "choice_B": "Schedule a brief call to ask if the design creates any concerns",
+            "feedback_B": "Correct. Indirect check-in preserves face and opens dialogue. High PDI cultures often communicate disagreement indirectly. (Juhász, 2014)"
+          }
+        ]
+      },
+      "knowledge_checks": [
+        {
+          "question": "India's PDI score of 77 most directly predicts which behavior?",
+          "correct": "B",
+          "options": {
+            "A": "Team members openly challenge manager decisions",
+            "B": "Decisions require senior sign-off before the team acts",
+            "C": "Individual performance reviews are preferred over team reviews",
+            "D": "Engineers change jobs frequently seeking personal advancement"
+          }
+        }
+      ],
+      "reflection_prompt": "Think of a past project where hierarchy or authority affected how decisions were made. How might India's PDI of 77 have changed how you communicated?",
+      "primary_interaction": "Hofstede explorer — click each dimension to see the score, the engineering-team implication, and an example scenario",
+      "sources": ["hofstede2010", "juhasz2014", "atoz-economy", "atoz-culture", "hofstede-insights"]
+    },
+    {
+      "id": "M2",
+      "title": "Business & Engineering Culture",
+      "author": "Aureo Zanon",
+      "slides": "8–13",
+      "cq_focus": ["Knowledge", "Strategy"],
+      "learning_objectives": [
+        "Identify cultural patterns that shape outsourcing and cross-team relationships",
+        "Apply boundary-object strategies to close U.S.–India coordination gaps",
+        "Use Meyer's culture-map framework to plan a cross-cultural team interaction"
+      ],
+      "drive_scenario": "Six months into a U.S.–India outsourcing engagement, you discover the Indian team built a module to a spec you thought you'd updated. The documentation was complete on your end. What went wrong?",
+      "knowledge_topics": [
+        "Outsourcing culture: communication distance, risk tolerance, documentation expectations (Heeks et al., 2001)",
+        "Boundary-object creation: joint documentation, overlap hours, joint prototyping (Krishna et al., 2004)",
+        "Meyer's Culture Map applied to India: direct vs. indirect feedback, hierarchical vs. egalitarian",
+        "Relationship-driven vs. task-driven business culture",
+        "In-group vs. out-group dynamics in Indian teams (House et al., 2014)",
+        "Psychological safety in hierarchical organizations (Gupta, 2020)"
+      ],
+      "strategy_framework": "Meyer's three-step change approach: (1) pre-brief the senior lead privately, (2) reframe in locally meaningful terms, (3) identify and empower a trusted internal champion (Meyer, 2014)",
+      "action_items": [
+        { "do": "Create joint boundary objects (shared glossary, joint sign-off checklist, overlap-hour meeting)", "avoid": "Sending final specs without synchronous confirmation", "reason": "Documentation misalignment is a known outsourcing risk (Heeks et al., 2001; Krishna et al., 2004)" },
+        { "do": "Give feedback privately to the team lead first, never in public group settings", "avoid": "Raising concerns in a full project call before the lead has heard them", "reason": "High PDI + collectivism makes public correction a face-threatening act" },
+        { "do": "Invest in relationship-building before accountability conversations", "avoid": "Jumping to metrics and deadlines in first interactions", "reason": "Trust precedes commitment; relationships are the contract in India-based partnerships" }
+      ],
+      "branching_scenario": {
+        "setup": "Your Indian partner team has missed a deliverable. The client is asking for answers. How do you proceed?",
+        "decision_points": [
+          {
+            "choice_A": "Email the full team asking for a status update",
+            "feedback_A": "Risk: Group visibility without prior private conversation creates face-threat. (Meyer, 2014)"
+          },
+          {
+            "choice_B": "Call the team lead privately to understand blockers before any escalation",
+            "feedback_B": "Best practice: private first, then reframe to client. Preserves relationship and opens problem-solving. (Krishna et al., 2004)"
+          }
+        ]
+      },
+      "primary_interaction": "Outsourcing-relationship scenario — step through three real coordination moments and choose the culturally effective path at each",
+      "sources": ["heeks2001", "krishna2004", "meyer2014", "house2014", "gupta2020", "nimmi2023", "joseph2025"]
+    },
+    {
+      "id": "M3",
+      "title": "Leadership Culture",
+      "author": "Wenkai Hu",
+      "slides": "14–17",
+      "cq_focus": ["Knowledge", "Strategy"],
+      "learning_objectives": [
+        "Compare culturally endorsed vs. observed leadership behaviors using GLOBE data for India",
+        "Identify leadership styles that build trust with Indian engineering teams",
+        "Apply an ethics lens to a cross-cultural leadership vignette"
+      ],
+      "drive_scenario": "You are promoted to lead a mixed U.S.–India team. At your first team meeting you announce a rotating decision-making model so everyone can lead a sprint. Silence follows. Why?",
+      "knowledge_topics": [
+        "GLOBE framework: culturally endorsed implicit leadership theories (CLTs) vs. observed behaviors",
+        "India GLOBE profile: humane-oriented and participative (endorsed) vs. self-protective (observed toward out-groups)",
+        "In-group/out-group boundary: leadership behaviors differ sharply inside vs. outside trusted circles",
+        "Ethics vignette from slide 17: engineering leadership decision under pressure"
+      ],
+      "strategy_framework": "GLOBE pre-interaction checklist: (1) Am I inside or outside this team's in-group? (2) Which leadership dimension — humane-oriented, participative, or self-protective — is this person likely performing right now? (3) How do I move from out-group to in-group status?",
+      "action_items": [
+        { "do": "Show humane orientation first: ask about workload, family milestones, personal goals", "avoid": "Leading with authority or formal process before relationship is established", "reason": "Humane orientation is the highest-endorsed leadership dimension in India (House et al., 2014)" },
+        { "do": "Introduce egalitarian structures gradually, starting within a trusted sub-team", "avoid": "Announcing flat or rotating leadership to a full hierarchy without prior buy-in", "reason": "High PDI makes sudden role reversal socially disorienting, not empowering" }
+      ],
+      "primary_interaction": "GLOBE comparison table: for each leadership dimension, see India's culturally endorsed score vs. observed score, and an engineering-context example",
+      "sources": ["house2014", "psu-leadership"]
+    },
+    {
+      "id": "M4",
+      "title": "Self-Reflection",
+      "author": "Caroline Auer, Wenkai Hu, Rickey Patel, Christopher Toevs, Aureo Zanon",
+      "slides": "18–23",
+      "cq_focus": ["Drive", "Strategy"],
+      "learning_objectives": [
+        "Examine your own cultural defaults and how they differ from Indian engineering norms",
+        "Build a personal 'my defaults vs. India's expectations' comparison table",
+        "Identify your highest-leverage CQ growth area before an India assignment"
+      ],
+      "drive_scenario": "Before you land, you have one week to prepare. What cultural assumptions are you bringing that could backfire on Day 1?",
+      "knowledge_topics": [
+        "Team self-reflections as worked examples: five different U.S.-trained engineers examining their own CQ profile",
+        "CQ assessment: Drive, Knowledge, Strategy, Action subscales",
+        "Common U.S. engineer defaults: direct feedback, flat hierarchy assumptions, task-first culture, individual attribution"
+      ],
+      "strategy_framework": "Defaults-gap table: list your default behavior → the Indian expectation → the adjustment you will make",
+      "primary_interaction": "Team self-reflections (5 worked examples), then learner builds their own 'my defaults vs. India's expectations' table with save-to-localStorage",
+      "sources": ["cq-assessment"]
+    },
+    {
+      "id": "M5",
+      "title": "Ethical Awareness in Agricultural Equipment Manufacturing",
+      "author": "Christopher Toevs",
+      "slides": "24–30",
+      "cq_focus": ["Knowledge", "Action"],
+      "learning_objectives": [
+        "Apply NSPE, IEI, and OECD ethical frameworks to a cross-cultural engineering decision",
+        "Identify ethical risks specific to manufacturing and technology transfer in India",
+        "Make and defend an authorization decision using a structured ethics test"
+      ],
+      "drive_scenario": "You are the lead engineer on an agricultural equipment line being introduced to rural India. A supplier shortcut saves ₹2,000 per unit. Your local distributor says it's 'standard practice.' You have a shipment decision to make by end of week.",
+      "knowledge_topics": [
+        "NSPE six fundamental canons: public safety paramount, honest practice, sustainability",
+        "IEI charter: Indian professional engineering ethics — public safety, honest practice",
+        "OECD guidelines: due diligence, labor rights, anti-corruption for MNEs in developing markets",
+        "Ethics in rural India context: operator literacy, infrastructure variability, maintenance access",
+        "Ethical risks: supplier selection, operator instructions, safe use across literacy levels"
+      ],
+      "strategy_framework": "Three-part ethics test: (1) Does this action pass NSPE's public-safety canon? (2) Does it meet IEI's local obligations? (3) Does it comply with OECD due-diligence standards?",
+      "action_items": [
+        { "do": "Require multilingual safety labels and pictogram-based operator instructions", "avoid": "Assuming English instructions are sufficient for rural Indian operators", "reason": "NSPE canon 1 + IEI charter: public safety paramount across literacy and language contexts" },
+        { "do": "Document and escalate any supplier deviation from safety specifications", "avoid": "Accepting verbal 'standard practice' assurances as due diligence", "reason": "OECD due-diligence obligation requires documented evidence of safety compliance" }
+      ],
+      "branching_scenario": {
+        "setup": "Would you authorize shipment of the equipment with the supplier's shortcut?",
+        "decision_points": [
+          { "choice": "Authorize shipment — cost savings are significant and distributor confirms acceptability", "feedback": "Incorrect. Distributor acceptance does not substitute for NSPE/IEI/OECD due diligence. If a failure injures operators, the engineering team bears liability." },
+          { "choice": "Hold shipment and require documented safety re-test", "feedback": "Correct. NSPE canon 1 (public safety paramount) + OECD due diligence require engineering-led verification, not distributor assurance. (National Society of Professional Engineers, 2019; OECD, 2023)" },
+          { "choice": "Authorize with a written caveat in the project file", "feedback": "Insufficient. A paper trail without remediation does not satisfy the safety canon — it documents a known risk you chose not to mitigate." }
+        ]
+      },
+      "primary_interaction": "'Would you authorize shipment?' — full branching ethics case covering supplier selection, operator instructions, and safe use",
+      "sources": ["nspe2019", "oecd2023", "iei2004", "psu-ethics"]
+    },
+    {
+      "id": "M6",
+      "title": "Motivation Techniques",
+      "author": "Wenkai Hu",
+      "slides": "31–34",
+      "cq_focus": ["Action", "Strategy"],
+      "learning_objectives": [
+        "Apply Herzberg's two-factor theory in India's high-PDI context",
+        "Design a culturally appropriate motivation plan for a named Indian team member",
+        "Identify three Monday-morning actions an engineering leader can take immediately"
+      ],
+      "drive_scenario": "Your top Indian engineer, Priya, is being recruited away. HR says the counter-offer is a 15% salary bump. You know from the literature that salary ranks lower for Indian IT engineers than in Western samples. What do you offer instead?",
+      "knowledge_topics": [
+        "Herzberg's two-factor theory: motivators (recognition, growth) vs. hygiene (salary, job security)",
+        "India-specific motivators: supervisor recognition and job security rank highest (Joseph et al., 2025)",
+        "Salary ranks lower than in Western samples for Indian IT engineers (Joseph et al., 2025)",
+        "Wellbeing tied to managerial support outperforms individual wellness programs (Nimmi & Jakubik, 2023)",
+        "Hierarchical cultures and knowledge-sharing inhibition (Gupta, 2020)",
+        "Maslow and McClelland applied to India engineering context (Pennsylvania State University, n.d.)"
+      ],
+      "strategy_framework": "Build a motivation plan for a named team member: (1) identify their dominant motivation cluster, (2) match to Herzberg motivators specific to India context, (3) define three concrete actions for Monday",
+      "action_items": [
+        { "do": "Publicly recognize contributions to senior leadership — name the engineer and the achievement in management meetings", "avoid": "Generic team-wide praise that doesn't name individual contributions", "reason": "Supervisor recognition is the top retention driver in Indian IT (Joseph et al., 2025)" },
+        { "do": "Invest in formal learning opportunities and certifications tied to their career path", "avoid": "Generic 'keep up the good work' without visible career investment", "reason": "Growth motivators sustain engagement when hygiene factors (salary) are already adequate" },
+        { "do": "Build managerial support structures — regular 1:1s, clear path to promotion", "avoid": "Individually-targeted wellness perks as a retention substitute for managerial presence", "reason": "Managerial support outperforms individual programs in Indian IT (Nimmi & Jakubik, 2023)" }
+      ],
+      "primary_interaction": "'Three actions an engineering leader can use Monday' — build-your-own motivation plan for a named Indian team member (interactive worksheet, saved to localStorage)",
+      "sources": ["joseph2025", "nimmi2023", "gupta2020", "psu-motivation"]
+    },
+    {
+      "id": "M7",
+      "title": "Innovation & Diffusion of Innovations",
+      "author": "Rickey Patel",
+      "slides": "35–44",
+      "cq_focus": ["Knowledge", "Strategy", "Action"],
+      "learning_objectives": [
+        "Apply Rogers' adopter-category framework to a technology rollout in India",
+        "Explain why India's cultural paradox (high PDI + low UAI) shapes the diffusion curve",
+        "Design a 'Champions, Not Campaigns' rollout strategy for an India-based team",
+        "Identify the accelerators and inhibitors most likely to affect your project"
+      ],
+      "drive_scenario": "Your company wants to roll out a new IoT-enabled quality-control system across three Indian manufacturing plants. Your change-management playbook is built for U.S. middle managers. What needs to change?",
+      "knowledge_topics": [
+        "Rogers' five adopter categories with India-specific context (Rogers, 2003)",
+        "16% tipping point: once early adopters (13.5%) + innovators (2.5%) adopt, the early majority follows",
+        "India's cultural paradox: low UAI (40) enables individual risk-taking BUT high PDI (77) concentrates adoption decisions at authority nodes (Desmarchelier & Fang, 2016)",
+        "UPI case study: 0.92B → 131.1B transactions FY2018–FY2024, government mandate as champion (NPCI, 2024; Nilekani & Shah, 2015)",
+        "Accelerators: Jugaad innovation culture (Radjou et al., 2012), 3.1M engineering grads/year, government mandates (Jan Dhan + Aadhaar + Mobile), ISRO/Chandrayaan-3 credibility effect",
+        "Inhibitors: high-PDI authority gating suppresses upward voice (Pavitra & Sarikwal, 2023), regulatory risk (Kearney 2026 FDI rank 22/25), DPDP Act compliance uncertainty, infrastructure variability (World Bank, 2022a)",
+        "Dearing & Kreuter mistakes: assuming a good idea sells itself, ignoring social system norms, overlooking champions (Dearing & Kreuter, 2010)",
+        "Meyer's champion framework applied to India (Meyer, 2014)",
+        "ICAR extension model: institutional champions + train-the-trainer for rural diffusion (Indian Council of Agricultural Research, 2018)",
+        "Mark interview: internal champions with organizational authority essential to overcoming adoption resistance (Mark, personal communication, November 14, 2026)"
+      ],
+      "strategy_framework": "Three-step champion strategy (Meyer, 2014): (1) Pre-brief senior authority privately; (2) Reframe innovation in locally meaningful terms (cost savings, government alignment, career advancement); (3) Identify and empower a trusted internal champion with organizational authority",
+      "action_items": [
+        { "do": "Find your senior champion before launching — brief them privately, let them announce", "avoid": "Broadcast email announcing 'we're rolling out X starting Monday'", "reason": "High PDI: authority-gated adoption requires top-down endorsement (Pavitra & Sarikwal, 2023; Meyer, 2014)" },
+        { "do": "Reframe the innovation in terms your Indian team values: job security, national progress, career growth", "avoid": "Leading with efficiency gains or cost savings as the primary value proposition", "reason": "Locally meaningful framing activates the low-UAI individual adopter while satisfying the high-PDI group norm" },
+        { "do": "Build a pilot with early adopters (innovators + early adopters ~16%), document wins visibly", "avoid": "Waiting for full consensus before beginning", "reason": "16% tipping point (Rogers, 2003): reaching early majority requires visible social proof from credible peers" }
+      ],
+      "branching_scenario": {
+        "setup": "You're rolling out a new quality system. You have a one-hour kickoff slot. How do you open?",
+        "decision_points": [
+          { "choice": "Present data on ROI and global benchmarks", "feedback": "Weak in India context. Data alone does not overcome high-PDI authority-gate. (Dearing & Kreuter, 2010)" },
+          { "choice": "Have the plant director open with their personal endorsement, then you present", "feedback": "Strong. Authority-gated endorsement activates PDI-consistent adoption channel. (Meyer, 2014; Pavitra & Sarikwal, 2023)" },
+          { "choice": "Open with the UPI success story as a local analog", "feedback": "Good supporting move, but only effective after senior authority has spoken. Use as evidence, not opener." }
+        ]
+      },
+      "primary_interaction": "Three separate interactions: (1) Interactive Rogers bell curve — drag threshold to see tipping point; (2) UPI growth chart; (3) Accelerators vs. inhibitors drag-and-sort activity; plus 'Champions, Not Campaigns' mistake-spotter; FDI rank strip",
+      "sources": ["rogers2003", "dearing2010", "desmarchelier2016", "meyer2014", "nilekani2015", "pavitra2023", "radjou2012", "npci2024", "mof2024", "isro2023", "kearney2026", "worldbank2022a", "worldbank2022b", "dpdp2023", "icar2018", "atoz-workforce", "mark-interview"]
+    }
+  ],
+  "capstone_questions": [
+    {
+      "id": "Q1",
+      "question": "Who has the final say when engineers disagree?",
+      "slides": "52–54",
+      "modules_drawn": ["M1", "M2", "M3"],
+      "model_answer_status": "pending"
+    },
+    {
+      "id": "Q2",
+      "question": "Who owns a failure at the interfaces?",
+      "slides": "52–54",
+      "modules_drawn": ["M2", "M5", "M7"],
+      "model_answer_status": "pending"
+    },
+    {
+      "id": "Q3",
+      "question": "Which CQ capability comes first?",
+      "slides": "52–54",
+      "modules_drawn": ["M1", "M4", "M6"],
+      "model_answer_status": "pending"
+    }
+  ]
+}

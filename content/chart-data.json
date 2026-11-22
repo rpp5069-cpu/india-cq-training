@@ -1,0 +1,157 @@
+{
+  "hofstede": {
+    "country": "India",
+    "source": "Hofstede et al. (2010); Hofstede Insights (2026)",
+    "dimensions": [
+      { "code": "PDI", "label": "Power Distance", "score": 77, "interpretation": "High hierarchy; decisions flow top-down; titles and seniority matter greatly in engineering teams" },
+      { "code": "IDV", "label": "Individualism", "score": 48, "interpretation": "Moderately collectivist; in-group loyalty, team credit, and consensus matter more than individual achievement" },
+      { "code": "MAS", "label": "Masculinity", "score": 56, "interpretation": "Moderately masculine; competition and achievement are valued, but welfare and relationships also count" },
+      { "code": "UAI", "label": "Uncertainty Avoidance", "score": 40, "interpretation": "Low — comfortable with ambiguity; improvisation (Jugaad) and risk-taking are culturally supported" },
+      { "code": "LTO", "label": "Long-Term Orientation", "score": 51, "interpretation": "Balanced; respects tradition but also pragmatic about adapting to change when framed as progress" },
+      { "code": "IVR", "label": "Indulgence", "score": 26, "interpretation": "Restrained; gratification is controlled; work obligations take priority over leisure in professional settings" }
+    ]
+  },
+  "rogers_adopters": {
+    "source": "Rogers (2003)",
+    "tipping_point_pct": 16,
+    "categories": [
+      { "label": "Innovators", "share_pct": 2.5 },
+      { "label": "Early Adopters", "share_pct": 13.5 },
+      { "label": "Early Majority", "share_pct": 34 },
+      { "label": "Late Majority", "share_pct": 34 },
+      { "label": "Laggards", "share_pct": 16 }
+    ]
+  },
+  "upi_volume": {
+    "source": "NPCI (2024)",
+    "unit": "billion transactions",
+    "data": [
+      { "fy": "FY2018", "year": 2018, "value": 0.92 },
+      { "fy": "FY2019", "year": 2019, "value": 5.35 },
+      { "fy": "FY2020", "year": 2020, "value": 12.5 },
+      { "fy": "FY2021", "year": 2021, "value": 22.3 },
+      { "fy": "FY2022", "year": 2022, "value": 46 },
+      { "fy": "FY2023", "year": 2023, "value": 83.7 },
+      { "fy": "FY2024", "year": 2024, "value": 131.1 }
+    ]
+  },
+  "kearney_fdi": {
+    "source": "Kearney (2026)",
+    "index_name": "2026 FDI Confidence Index",
+    "india_rank": 22,
+    "total_ranked": 25,
+    "india_score": 1.6923
+  },
+  "globe_india": {
+    "source": "House et al. (2014); Pennsylvania State University (n.d.-b), GLOBE Table 8.4",
+    "note": "Scale 1–7. Historical CEOs — not all Indian engineers. Verbatim from slide 15 table.",
+    "scale": "1–7",
+    "gap_analysis": "Charismatic and team-oriented leadership are strongly endorsed. Participative behavior falls below the expected level. Self-protective behavior exceeds the endorsed ideal.",
+    "dimensions": [
+      {
+        "dimension": "Charismatic",
+        "culturally_endorsed_clt": 5.85,
+        "observed_ceo": 5.67,
+        "gap": -0.18,
+        "engineering_context": "Strong vision and inspiration are expected and delivered; credible authority-based direction works well"
+      },
+      {
+        "dimension": "Team-oriented",
+        "culturally_endorsed_clt": 5.73,
+        "observed_ceo": 5.48,
+        "gap": -0.25,
+        "engineering_context": "Collaborative coordination is valued; in-group cohesion is a genuine strength to build on"
+      },
+      {
+        "dimension": "Participative",
+        "culturally_endorsed_clt": 4.99,
+        "observed_ceo": 4.74,
+        "gap": -0.25,
+        "engineering_context": "Participation is endorsed but under-practiced; U.S. engineers expecting open debate will need to actively invite it and follow up privately"
+      },
+      {
+        "dimension": "Self-protective",
+        "culturally_endorsed_clt": 3.77,
+        "observed_ceo": 4.11,
+        "gap": 0.34,
+        "engineering_context": "Face-saving and status protection exceed what is culturally ideal; public challenges to authority damage working relationships"
+      }
+    ]
+  },
+  "upi_rogers_attributes": {
+    "source": "Rogers (2003); NPCI (2024) — verbatim from slide 39 table",
+    "attributes": [
+      { "attribute": "Relative advantage", "upi_delivery": "Free, instant, 24/7 — vs. cash handling cost" },
+      { "attribute": "Compatibility", "upi_delivery": "Works on any smartphone; Aadhaar-linked" },
+      { "attribute": "Complexity", "upi_delivery": "Single QR scan replaces multi-step banking" },
+      { "attribute": "Trialability", "upi_delivery": "₹0 to try; zero-barrier adoption" },
+      { "attribute": "Observability", "upi_delivery": "Peer-to-peer use is visible at every chai stall" }
+    ]
+  },
+  "accelerators_inhibitors": {
+    "source": "Radjou et al. (2012); ISRO (2023); Desmarchelier & Fang (2016); NPCI (2024); Mark, personal communication, Nov. 14, 2026 — verbatim from slide 40 table",
+    "pairs": [
+      {
+        "accelerator": "Government as champion: RBI mandated zero-fee UPI; India Stack (Aadhaar, DigiLocker) bypasses private-sector inertia",
+        "inhibitor": "Hierarchical approval loops: with PDI at 77, lateral adoption stalls without senior sign-off; innovation needs a top-down mandate"
+      },
+      {
+        "accelerator": "Jugaad mindset: frugal prototyping accelerates grassroots adoption of 'good enough' solutions (Radjou et al., 2012)",
+        "inhibitor": "Industry confirmation: after a rollout setback, issues went unmentioned in group meetings until senior clearance was given — PDI silence confirmed in practice (Mark, personal communication, Nov. 14, 2026)"
+      },
+      {
+        "accelerator": "Chandrayaan-3 (2023): $75M mission — 10–15× cheaper than NASA — frugal engineering as competitive advantage (ISRO, 2023)",
+        "inhibitor": null
+      },
+      {
+        "accelerator": "Leapfrog infrastructure: a mobile-first population skipped desktop internet; 700M+ smartphone users by 2023",
+        "inhibitor": "Digital divide: 400M+ feature-phone users and rural connectivity gaps create two-speed adoption curves"
+      },
+      {
+        "accelerator": "IT talent ecosystem: 3.1M engineers graduate each year; strong early-adopter base in Tier-1 cities",
+        "inhibitor": "Regulatory uncertainty: DPDP Act 2023 data localization and retroactive rule changes raise compliance risk"
+      }
+    ]
+  },
+  "champions_not_campaigns": {
+    "source": "Dearing & Kreuter (2010); Meyer (2014) — verbatim from slide 41 table",
+    "meyer_steps": [
+      "Step 1 — Brief the senior lead privately 24–48 hrs before any group presentation",
+      "Step 2 — Frame the innovation as a local win, not a foreign import",
+      "Step 3 — Run a formal pilot with one respected institutional champion before scaling"
+    ],
+    "mistakes": [
+      {
+        "mistake": "#1 Assuming technical merit sells itself",
+        "what_works": "Build social proof and champion relationships before launch; credibility must precede the product"
+      },
+      {
+        "mistake": "#4 Ignoring the social system's authority structure",
+        "what_works": "Work through institutional hierarchies; bypassing senior engineers and government bodies stalls uptake"
+      },
+      {
+        "mistake": "#7 Over-relying on mass media and broadcast channels",
+        "what_works": "Seek endorsements from institutional figures and senior engineers; they outperform any digital campaign"
+      }
+    ]
+  },
+  "fdi_macro_risks": {
+    "source": "Kearney FDI Confidence Index (2026); Digital Personal Data Protection Act (2023) — verbatim from slide 42 table",
+    "india_rank": 22,
+    "total_ranked": 25,
+    "risks": [
+      {
+        "risk": "Techno-nationalism",
+        "demand": "DPDP Act 2023 mandates data localization: AI, IoT and cloud products need compliance architecture from day one, not retrofitted"
+      },
+      {
+        "risk": "Quasi-nationalization",
+        "demand": "Strategic sector reviews (defense, telecom, energy) make government a stakeholder to engage proactively, not an obstacle to bypass"
+      },
+      {
+        "risk": "Regulatory shock",
+        "demand": "High PDI creates hierarchical freeze under uncertainty: build explicit escalation paths into project governance before you need them"
+      }
+    ]
+  }
+}

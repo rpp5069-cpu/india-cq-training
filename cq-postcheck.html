@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CQ Post-Check — India CQ Training</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body data-page="postcheck">
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="nav-logo"><svg class="nav-logo-flag" width="22" height="15" viewBox="0 0 33 22" xmlns="http://www.w3.org/2000/svg" aria-label="Indian flag" role="img" focusable="false"><rect width="33" height="22" fill="#138808"/><rect width="33" height="14.67" fill="#fff"/><rect width="33" height="7.33" fill="#FF9933"/><circle cx="16.5" cy="11" r="3.5" fill="none" stroke="#000080" stroke-width="0.8"/><circle cx="16.5" cy="11" r="0.5" fill="#000080"/></svg> India CQ Training</a>
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn btn--ghost btn--sm" aria-label="Toggle dark mode"><i data-lucide="sun"></i></button>
+        <button id="reset-progress" class="btn btn--ghost btn--sm">Reset progress</button>
+      </div>
+    </div>
+  </header>
+  <nav class="progress-nav" aria-label="Course progress">
+    <div class="progress-nav-inner">
+      <a href="index.html" class="progress-nav-item" data-page="welcome"><span class="nav-dot" aria-hidden="true"></span>Welcome</a>
+      <a href="cq-precheck.html" class="progress-nav-item" data-page="precheck"><span class="nav-dot" aria-hidden="true"></span>CQ Check</a>
+      <a href="module-1.html" class="progress-nav-item" data-page="module-1"><span class="nav-dot" aria-hidden="true"></span>M1</a>
+      <a href="module-2.html" class="progress-nav-item" data-page="module-2"><span class="nav-dot" aria-hidden="true"></span>M2</a>
+      <a href="module-3.html" class="progress-nav-item" data-page="module-3"><span class="nav-dot" aria-hidden="true"></span>M3</a>
+      <a href="module-4.html" class="progress-nav-item" data-page="module-4"><span class="nav-dot" aria-hidden="true"></span>M4</a>
+      <a href="module-5.html" class="progress-nav-item" data-page="module-5"><span class="nav-dot" aria-hidden="true"></span>M5</a>
+      <a href="module-6.html" class="progress-nav-item" data-page="module-6"><span class="nav-dot" aria-hidden="true"></span>M6</a>
+      <a href="module-7.html" class="progress-nav-item" data-page="module-7"><span class="nav-dot" aria-hidden="true"></span>M7</a>
+      <a href="capstone.html" class="progress-nav-item" data-page="capstone"><span class="nav-dot" aria-hidden="true"></span>Capstone</a>
+      <a href="action-plan.html" class="progress-nav-item" data-page="plan"><span class="nav-dot" aria-hidden="true"></span>30-Day Plan</a>
+      <a href="cq-postcheck.html" class="progress-nav-item" data-page="postcheck"><span class="nav-dot" aria-hidden="true"></span>CQ Result</a>
+      <a href="references.html" class="progress-nav-item" data-page="references"><span class="nav-dot" aria-hidden="true"></span>References</a>
+      <a href="about.html" class="progress-nav-item" data-page="about"><span class="nav-dot" aria-hidden="true"></span>About</a>
+    </div>
+  </nav>
+  <main id="main" class="main-content">
+
+    <div class="page-header">
+      <div class="cq-badges">
+        <span class="cq-badge cq-badge--drive">CQ Drive</span>
+        <span class="cq-badge cq-badge--knowledge">CQ Knowledge</span>
+        <span class="cq-badge cq-badge--strategy">CQ Strategy</span>
+        <span class="cq-badge cq-badge--action">CQ Action</span>
+      </div>
+      <span class="section-label">Post-Check</span>
+      <h1>CQ Post-Check</h1>
+      <p class="byline">Rate yourself again — same scale, honest answers</p>
+    </div>
+
+    <div class="info-box mb-24">
+      <i data-lucide="info" class="box-icon"></i>
+      <p>Rate each statement using the same 1–7 scale as before. This is not a test — it's a self-assessment. When you submit, you'll see your before/after comparison and can download your completion record.</p>
+    </div>
+
+    <!-- Pre-check scores comparison (shown if available) -->
+    <div id="cq-delta-display" class="cq-delta-grid" aria-live="polite"></div>
+
+    <form id="cq-check-form" data-mode="post" novalidate>
+
+      <!-- CQ Drive -->
+      <section class="module-section" aria-labelledby="drive-heading">
+        <span class="section-label">Section 1</span>
+        <h2 id="drive-heading"><span class="cq-badge cq-badge--drive">CQ Drive</span> Motivation &amp; Confidence</h2>
+        <p class="text-muted mb-16">CQ Drive = your motivation and self-confidence to function in cross-cultural situations. Rate 1 (not at all true) to 7 (absolutely true).</p>
+
+        <div class="cq-item">
+          <label class="form-label" id="d1-label">I am confident that I can deal with people from a different culture than my own.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="d1-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="drive" data-key="post-d1" id="post-d1" name="post-d1" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="d2-label">I enjoy interacting with people from different cultures.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="d2-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="drive" data-key="post-d2" id="post-d2" name="post-d2" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="d3-label">I am certain I can deal with the stress of adapting to a culture that is new to me.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="d3-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="drive" data-key="post-d3" id="post-d3" name="post-d3" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="d4-label">I enjoy the challenges of working in cultures that are unfamiliar to me.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="d4-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="drive" data-key="post-d4" id="post-d4" name="post-d4" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+      </section>
+
+      <!-- CQ Knowledge -->
+      <section class="module-section" aria-labelledby="knowledge-heading">
+        <span class="section-label">Section 2</span>
+        <h2 id="knowledge-heading"><span class="cq-badge cq-badge--knowledge">CQ Knowledge</span> Cultural Systems</h2>
+        <p class="text-muted mb-16">CQ Knowledge = understanding how culture shapes systems, norms, and behavior. Rate 1–7.</p>
+
+        <div class="cq-item">
+          <label class="form-label" id="k1-label">I know the cultural values and religious beliefs of people from other cultures.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="k1-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="knowledge" data-key="post-k1" id="post-k1" name="post-k1" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="k2-label">I know the marriage systems of other cultures (e.g., arranged vs. self-selected).</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="k2-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="knowledge" data-key="post-k2" id="post-k2" name="post-k2" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="k3-label">I know the arts and crafts of other cultures.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="k3-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="knowledge" data-key="post-k3" id="post-k3" name="post-k3" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="k4-label">I know the rules (e.g., economic, political, legal) of other cultures.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="k4-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="knowledge" data-key="post-k4" id="post-k4" name="post-k4" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+      </section>
+
+      <!-- CQ Strategy -->
+      <section class="module-section" aria-labelledby="strategy-heading">
+        <span class="section-label">Section 3</span>
+        <h2 id="strategy-heading"><span class="cq-badge cq-badge--strategy">CQ Strategy</span> Planning &amp; Checking</h2>
+        <p class="text-muted mb-16">CQ Strategy = your ability to plan for, check, and adjust your cultural assumptions. Rate 1–7.</p>
+
+        <div class="cq-item">
+          <label class="form-label" id="s1-label">I am conscious of the cultural knowledge I apply to cross-cultural interactions.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="s1-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="strategy" data-key="post-s1" id="post-s1" name="post-s1" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="s2-label">I check the accuracy of my cultural knowledge as I interact with people from different cultures.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="s2-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="strategy" data-key="post-s2" id="post-s2" name="post-s2" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="s3-label">I adjust my cultural knowledge as I interact with people from a culture that is unfamiliar to me.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="s3-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="strategy" data-key="post-s3" id="post-s3" name="post-s3" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="s4-label">I develop a plan before I go into a cross-cultural interaction.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="s4-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="strategy" data-key="post-s4" id="post-s4" name="post-s4" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+      </section>
+
+      <!-- CQ Action -->
+      <section class="module-section" aria-labelledby="action-heading">
+        <span class="section-label">Section 4</span>
+        <h2 id="action-heading"><span class="cq-badge cq-badge--action">CQ Action</span> Behavioral Adaptation</h2>
+        <p class="text-muted mb-16">CQ Action = your ability to adapt your verbal and non-verbal behavior in cross-cultural situations. Rate 1–7.</p>
+
+        <div class="cq-item">
+          <label class="form-label" id="a1-label">I change my verbal behavior (e.g., accent, tone) when a cross-cultural interaction requires it.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="a1-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="action" data-key="post-a1" id="post-a1" name="post-a1" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="a2-label">I use pause and silence differently to suit different cross-cultural situations.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="a2-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="action" data-key="post-a2" id="post-a2" name="post-a2" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="a3-label">I vary the rate of my speaking when a cross-cultural situation requires it.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="a3-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="action" data-key="post-a3" id="post-a3" name="post-a3" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+
+        <div class="cq-item">
+          <label class="form-label" id="a4-label">I change my non-verbal behavior when a cross-cultural situation requires it.</label>
+          <div class="cq-slider-wrap" role="group" aria-labelledby="a4-label">
+            <span class="cq-slider-min" aria-hidden="true">1<br><small>Not at all</small></span>
+            <input type="range" class="cq-slider" data-capability="action" data-key="post-a4" id="post-a4" name="post-a4" min="1" max="7" value="4" aria-valuemin="1" aria-valuemax="7">
+            <span class="cq-slider-max" aria-hidden="true">7<br><small>Absolutely</small></span>
+          </div>
+          <div class="cq-score-display" aria-live="polite"><span class="cq-score-num">4</span> / 7</div>
+        </div>
+      </section>
+
+      <div class="form-group mt-16">
+        <label class="form-label" for="learner-name-input">Your name (for the completion record)</label>
+        <input type="text" id="learner-name-input" class="form-input" placeholder="Enter your name" autocomplete="name">
+      </div>
+
+      <button type="submit" class="btn btn--primary btn--lg">Submit and see my CQ growth</button>
+
+    </form>
+
+    <!-- Post-submit: delta display, download -->
+    <div id="cq-results" style="display:none" aria-live="polite">
+      <h2 class="mt-32">Your CQ Journey</h2>
+      <div id="cq-delta-display-post" class="cq-delta-grid"></div>
+
+      <div class="success-box mt-24">
+        <i data-lucide="download" class="box-icon"></i>
+        <p>Your scores, action plan, and all reflections are ready to download as a standalone HTML record.</p>
+      </div>
+      <button id="download-completion" class="btn btn--primary btn--lg mt-16">
+        <i data-lucide="download"></i> Download my completion record
+      </button>
+    </div>
+
+    <div class="module-complete-banner" role="status" aria-live="polite">
+      <i data-lucide="check-circle-2"></i>
+      <span>Post-check complete — download your completion record below</span>
+    </div>
+
+    <nav class="module-nav" aria-label="Module navigation">
+      <a href="action-plan.html" class="btn btn--secondary"><i data-lucide="arrow-left"></i> Action Plan</a>
+      <a href="references.html" class="btn btn--ghost">References</a>
+    </nav>
+
+  </main>
+  <footer class="site-footer">
+    <p>ENGR 802: Engineering Across Cultures · Penn State Great Valley · Dr. Esther Obonyo</p>
+    <p>Team: Caroline Auer · Wenkai Hu · Rickey Patel · Christopher Toevs · Aureo Zanon · November 12, 2026</p>
+  </footer>
+  <script src="https://unpkg.com/lucide@0.447.0/dist/umd/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="src/js/app.js"></script>
+  <script src="src/js/charts.js"></script>
+  <script src="src/js/interactions.js"></script>
+  <script src="src/js/completion.js"></script>
+</body>
+</html>

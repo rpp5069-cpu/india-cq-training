@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone — Apply Your CQ to India — India CQ Training</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/main.css">
+  <style>
+    .model-answer {
+      display: none;
+      background: var(--gray-50);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      margin-top: 12px;
+      font-size: .9rem;
+      line-height: 1.6;
+    }
+    .model-answer.open { display: block; }
+    .model-answer p { margin-bottom: .5rem; }
+    .word-count-hint { font-size: .78rem; color: var(--text-muted); margin-top: 4px; }
+    .capstone-question {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+    .capstone-question__q {
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.5;
+      border-left: 4px solid var(--blue);
+      padding-left: 16px;
+      margin-bottom: 16px;
+      color: var(--gray-900);
+    }
+    .capstone-actions {
+      display: flex; align-items: center; gap: 10px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body data-page="capstone">
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="nav-logo"><svg class="nav-logo-flag" width="22" height="15" viewBox="0 0 33 22" xmlns="http://www.w3.org/2000/svg" aria-label="Indian flag" role="img" focusable="false"><rect width="33" height="22" fill="#138808"/><rect width="33" height="14.67" fill="#fff"/><rect width="33" height="7.33" fill="#FF9933"/><circle cx="16.5" cy="11" r="3.5" fill="none" stroke="#000080" stroke-width="0.8"/><circle cx="16.5" cy="11" r="0.5" fill="#000080"/></svg> India CQ Training</a>
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn btn--ghost btn--sm" aria-label="Toggle dark mode"><i data-lucide="sun"></i></button>
+        <button id="reset-progress" class="btn btn--ghost btn--sm">Reset progress</button>
+      </div>
+    </div>
+  </header>
+  <nav class="progress-nav" aria-label="Course progress">
+    <div class="progress-nav-inner">
+      <a href="index.html" class="progress-nav-item" data-page="welcome"><span class="nav-dot" aria-hidden="true"></span>Welcome</a>
+      <a href="cq-precheck.html" class="progress-nav-item" data-page="precheck"><span class="nav-dot" aria-hidden="true"></span>CQ Check</a>
+      <a href="module-1.html" class="progress-nav-item" data-page="module-1"><span class="nav-dot" aria-hidden="true"></span>M1</a>
+      <a href="module-2.html" class="progress-nav-item" data-page="module-2"><span class="nav-dot" aria-hidden="true"></span>M2</a>
+      <a href="module-3.html" class="progress-nav-item" data-page="module-3"><span class="nav-dot" aria-hidden="true"></span>M3</a>
+      <a href="module-4.html" class="progress-nav-item" data-page="module-4"><span class="nav-dot" aria-hidden="true"></span>M4</a>
+      <a href="module-5.html" class="progress-nav-item" data-page="module-5"><span class="nav-dot" aria-hidden="true"></span>M5</a>
+      <a href="module-6.html" class="progress-nav-item" data-page="module-6"><span class="nav-dot" aria-hidden="true"></span>M6</a>
+      <a href="module-7.html" class="progress-nav-item" data-page="module-7"><span class="nav-dot" aria-hidden="true"></span>M7</a>
+      <a href="capstone.html" class="progress-nav-item" data-page="capstone"><span class="nav-dot" aria-hidden="true"></span>Capstone</a>
+      <a href="action-plan.html" class="progress-nav-item" data-page="plan"><span class="nav-dot" aria-hidden="true"></span>30-Day Plan</a>
+      <a href="cq-postcheck.html" class="progress-nav-item" data-page="postcheck"><span class="nav-dot" aria-hidden="true"></span>CQ Result</a>
+      <a href="references.html" class="progress-nav-item" data-page="references"><span class="nav-dot" aria-hidden="true"></span>References</a>
+      <a href="about.html" class="progress-nav-item" data-page="about"><span class="nav-dot" aria-hidden="true"></span>About</a>
+    </div>
+  </nav>
+  <main id="main" class="main-content">
+
+    <div class="page-header">
+      <div class="cq-badges">
+        <span class="cq-badge cq-badge--drive">CQ Drive</span>
+        <span class="cq-badge cq-badge--knowledge">CQ Knowledge</span>
+        <span class="cq-badge cq-badge--strategy">CQ Strategy</span>
+        <span class="cq-badge cq-badge--action">CQ Action</span>
+      </div>
+      <span class="section-label">Capstone</span>
+      <h1>Apply Your CQ to India</h1>
+      <p class="byline">All team members · Slides 52–54</p>
+    </div>
+
+    <div class="info-box mb-24">
+      <i data-lucide="info" class="box-icon"></i>
+      <p>The three questions below are drawn verbatim from the deck (slides 52–54). They are the same questions your team answered in the final presentation. Take 15–20 minutes per question. Your responses are saved automatically and appear in your completion record. You can compare your answers with the team's draft model answers after writing your own.</p>
+    </div>
+
+    <div class="module-complete-banner" role="status" aria-live="polite">
+      <i data-lucide="check-circle-2"></i>
+      <span>Capstone responses saved — proceed to your 30-Day Action Plan</span>
+    </div>
+
+    <!-- Question 1 -->
+    <section class="module-section">
+      <h2>Question 1</h2>
+      <div class="capstone-question">
+        <div class="capstone-question__q">
+          "An Indian team you are leading goes quiet after you deliver a performance warning to the full group. Response rates to your project updates drop from 85% to 15%. Three people ask to be transferred. You have six weeks to deliver. What do you do, and which CQ capability do you apply first?"
+        </div>
+        <p class="text-muted">Source: slide 52</p>
+
+        <div class="form-group mt-16">
+          <label class="form-label" for="capstone-response-1">Your response</label>
+          <textarea
+            id="capstone-response-1"
+            class="form-textarea"
+            data-key="capstone-q1"
+            rows="8"
+            placeholder="Write your response (150–250 words recommended)..."
+          ></textarea>
+          <span class="word-count-hint">Aim for 150–250 words. Touch on CQ Drive, Knowledge, Strategy, and Action.</span>
+        </div>
+
+        <div class="capstone-actions">
+          <button class="show-model-answer btn btn--ghost btn--sm" data-answer="model-1">Show model answer</button>
+        </div>
+
+        <div id="model-1" class="model-answer">
+          <p><strong>[DRAFT MODEL ANSWER — awaiting team review]</strong></p>
+          <p>The silence after a public performance warning is a predictable consequence of PDI 77 and collectivist values: the warning created a face-threatening event in a group setting, triggering disengagement, face-saving silence, and trust breakdown.</p>
+          <p><strong>CQ Drive first:</strong> resist the impulse to escalate or impose consequences — this will deepen the retreat. The motivation to work through discomfort here is the foundation everything else builds on.</p>
+          <p><strong>Then CQ Knowledge:</strong> understand what just happened through a cultural lens, not a performance lens. This is not a performance emergency — it is a relationship emergency. The 15% response rate is information: the team is protecting itself.</p>
+          <p><strong>CQ Strategy:</strong> within 24 hours, pre-brief the most senior team member privately. Acknowledge that the group warning was delivered in a way that likely felt public and embarrassing. Ask what they need to feel safe contributing again. Do not deliver a new plan — listen first.</p>
+          <p><strong>CQ Action:</strong> create explicit private channels for the next six weeks. One-on-one weekly check-ins replace the group call as the primary status vehicle. The group call becomes a coordination surface, not an accountability event. Deliver the next performance feedback privately and specifically — not about the team, about one deliverable at a time.</p>
+          <p><cite>Sources: Hofstede et al. (2010); Meyer (2014); Mark, personal communication, November 14, 2026.</cite></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question 2 -->
+    <section class="module-section">
+      <h2>Question 2</h2>
+      <div class="capstone-question">
+        <div class="capstone-question__q">
+          "A critical component in your U.S.–India joint project fails QC. Your Indian team lead says the fault is with a supplier you specified. Your manager says the fault is with the Indian team's inspection protocol. You are in the middle. The client call is in 48 hours. How do you handle the next 48 hours, and which CQ frameworks do you apply?"
+        </div>
+        <p class="text-muted">Source: slide 53</p>
+
+        <div class="form-group mt-16">
+          <label class="form-label" for="capstone-response-2">Your response</label>
+          <textarea
+            id="capstone-response-2"
+            class="form-textarea"
+            data-key="capstone-q2"
+            rows="8"
+            placeholder="Write your response (150–250 words recommended)..."
+          ></textarea>
+          <span class="word-count-hint">Aim for 150–250 words. Apply at least two module frameworks explicitly.</span>
+        </div>
+
+        <div class="capstone-actions">
+          <button class="show-model-answer btn btn--ghost btn--sm" data-answer="model-2">Show model answer</button>
+        </div>
+
+        <div id="model-2" class="model-answer">
+          <p><strong>[DRAFT MODEL ANSWER — awaiting team review]</strong></p>
+          <p>This is simultaneously a technical crisis, a cross-cultural communication challenge, and an accountability assignment problem.</p>
+          <p><strong>CQ Knowledge:</strong> in a high-PDI context, the team lead blaming the supplier may be a face-saving response — it is not necessarily an engineering finding. Do not treat it as one. The goal of the next 48 hours is to understand what happened, not to assign blame.</p>
+          <p><strong>CQ Strategy:</strong> within the next four hours, hold two separate private calls — one with the team lead, one with your manager. Neither conversation should start with blame assignment. With the team lead: "Help me understand what the inspection found and what the supplier delivered." With your manager: "Here's what I know. I need 24 hours to get the technical facts before the client call."</p>
+          <p><strong>CQ Action:</strong> use the VERIFY → DISCUSS → CO-DESIGN framework from Module 3. Verify the technical facts first. Then discuss with both parties privately, separately, before any group call. Co-design the client presentation so both sides have a role — the team lead should speak to their own process, not be spoken for by you.</p>
+          <p>For the client call: present what is known, what the corrective action is, and who owns each step. Do not name blame. Use "we" throughout.</p>
+          <p><cite>Sources: Meyer (2014); Hofstede et al. (2010); National Society of Professional Engineers (2019), Canon I.1, Rule II.1.b.</cite></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question 3 -->
+    <section class="module-section">
+      <h2>Question 3</h2>
+      <div class="capstone-question">
+        <div class="capstone-question__q">
+          "You have three months to get a mid-sized Indian manufacturing firm to pilot a new quality-assurance technology. You have good data from U.S. deployments. What is your diffusion strategy, and which CQ capabilities will you lean on most?"
+        </div>
+        <p class="text-muted">Source: slide 54</p>
+
+        <div class="form-group mt-16">
+          <label class="form-label" for="capstone-response-3">Your response</label>
+          <textarea
+            id="capstone-response-3"
+            class="form-textarea"
+            data-key="capstone-q3"
+            rows="8"
+            placeholder="Write your response (150–250 words recommended)..."
+          ></textarea>
+          <span class="word-count-hint">Aim for 150–250 words. Reference Rogers, Meyer, and Dearing &amp; Kreuter.</span>
+        </div>
+
+        <div class="capstone-actions">
+          <button class="show-model-answer btn btn--ghost btn--sm" data-answer="model-3">Show model answer</button>
+        </div>
+
+        <div id="model-3" class="model-answer">
+          <p><strong>[DRAFT MODEL ANSWER — awaiting team review]</strong></p>
+          <p>Three months is exactly long enough for a well-structured Rogers diffusion approach — if you start with the authority pre-brief and local champion identification in week one.</p>
+          <p><strong>Month 1 — CQ Strategy:</strong> map the firm's adoption landscape. Who are the Innovators and Early Adopters? Who is the most senior technical authority? Do not send the proposal yet — schedule a private meeting with the technical head to understand their existing quality process and what has blocked previous technology adoption. Listen. This is Meyer Step 1 and Dearing &amp; Kreuter Mistake #4 prevention in one meeting.</p>
+          <p><strong>Month 2 — CQ Knowledge + Action:</strong> reframe the U.S. data as context, then gather one local data point. Propose a no-penalty pilot on a single production line — this addresses Trialability, the Rogers attribute most likely to unlock Early Majority movement. Identify your local champion: a respected engineer at the firm who becomes a co-owner of the pilot, not just a validator.</p>
+          <p><strong>Month 3 — CQ Action:</strong> execute the pilot with weekly visible progress (Observability). Document results in a format the firm can use to present to their own leadership. This becomes the local success story that accelerates the next adoption wave.</p>
+          <p><strong>CQ Drive throughout:</strong> the temptation is to push the data and push for a decision. The cultural pattern says slow down and invest in the relationship. The patience required is a CQ Drive challenge.</p>
+          <p><cite>Sources: Rogers (2003); Meyer (2014); Dearing &amp; Kreuter (2010); Hofstede et al. (2010).</cite></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="module-complete-banner" role="status" aria-live="polite">
+      <i data-lucide="check-circle-2"></i>
+      <span>Capstone responses saved — proceed to your 30-Day Action Plan</span>
+    </div>
+
+    <nav class="module-nav" aria-label="Module navigation">
+      <a href="module-7.html" class="btn btn--secondary"><i data-lucide="arrow-left"></i> M7: Innovation</a>
+      <a href="action-plan.html" class="btn btn--primary">30-Day Action Plan <i data-lucide="arrow-right"></i></a>
+    </nav>
+
+  </main>
+  <footer class="site-footer">
+    <p>ENGR 802: Engineering Across Cultures · Penn State Great Valley · Dr. Esther Obonyo</p>
+    <p>Team: Caroline Auer · Wenkai Hu · Rickey Patel · Christopher Toevs · Aureo Zanon · November 12, 2026</p>
+  </footer>
+  <script src="https://unpkg.com/lucide@0.447.0/dist/umd/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="src/js/app.js"></script>
+  <script src="src/js/charts.js"></script>
+  <script src="src/js/interactions.js"></script>
+  <script src="src/js/completion.js"></script>
+</body>
+</html>

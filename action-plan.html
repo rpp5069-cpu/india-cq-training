@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30-Day CQ Action Plan — India CQ Training</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/main.css">
+  <style>
+    .plan-section {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    .plan-section__header {
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .plan-section__header--drive    { background: #fff4e0; border-left: 4px solid #e8a040; }
+    .plan-section__header--knowledge{ background: var(--blue-light); border-left: 4px solid var(--blue); }
+    .plan-section__header--strategy { background: #f4eeff; border-left: 4px solid #9b6dd1; }
+    .plan-section__header--action   { background: #e8f7ee; border-left: 4px solid #4caf80; }
+    .plan-section__body { padding: 20px; }
+  </style>
+</head>
+<body data-page="plan">
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="nav-logo"><svg class="nav-logo-flag" width="22" height="15" viewBox="0 0 33 22" xmlns="http://www.w3.org/2000/svg" aria-label="Indian flag" role="img" focusable="false"><rect width="33" height="22" fill="#138808"/><rect width="33" height="14.67" fill="#fff"/><rect width="33" height="7.33" fill="#FF9933"/><circle cx="16.5" cy="11" r="3.5" fill="none" stroke="#000080" stroke-width="0.8"/><circle cx="16.5" cy="11" r="0.5" fill="#000080"/></svg> India CQ Training</a>
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn btn--ghost btn--sm" aria-label="Toggle dark mode"><i data-lucide="sun"></i></button>
+        <button id="reset-progress" class="btn btn--ghost btn--sm">Reset progress</button>
+      </div>
+    </div>
+  </header>
+  <nav class="progress-nav" aria-label="Course progress">
+    <div class="progress-nav-inner">
+      <a href="index.html" class="progress-nav-item" data-page="welcome"><span class="nav-dot" aria-hidden="true"></span>Welcome</a>
+      <a href="cq-precheck.html" class="progress-nav-item" data-page="precheck"><span class="nav-dot" aria-hidden="true"></span>CQ Check</a>
+      <a href="module-1.html" class="progress-nav-item" data-page="module-1"><span class="nav-dot" aria-hidden="true"></span>M1</a>
+      <a href="module-2.html" class="progress-nav-item" data-page="module-2"><span class="nav-dot" aria-hidden="true"></span>M2</a>
+      <a href="module-3.html" class="progress-nav-item" data-page="module-3"><span class="nav-dot" aria-hidden="true"></span>M3</a>
+      <a href="module-4.html" class="progress-nav-item" data-page="module-4"><span class="nav-dot" aria-hidden="true"></span>M4</a>
+      <a href="module-5.html" class="progress-nav-item" data-page="module-5"><span class="nav-dot" aria-hidden="true"></span>M5</a>
+      <a href="module-6.html" class="progress-nav-item" data-page="module-6"><span class="nav-dot" aria-hidden="true"></span>M6</a>
+      <a href="module-7.html" class="progress-nav-item" data-page="module-7"><span class="nav-dot" aria-hidden="true"></span>M7</a>
+      <a href="capstone.html" class="progress-nav-item" data-page="capstone"><span class="nav-dot" aria-hidden="true"></span>Capstone</a>
+      <a href="action-plan.html" class="progress-nav-item" data-page="plan"><span class="nav-dot" aria-hidden="true"></span>30-Day Plan</a>
+      <a href="cq-postcheck.html" class="progress-nav-item" data-page="postcheck"><span class="nav-dot" aria-hidden="true"></span>CQ Result</a>
+      <a href="references.html" class="progress-nav-item" data-page="references"><span class="nav-dot" aria-hidden="true"></span>References</a>
+      <a href="about.html" class="progress-nav-item" data-page="about"><span class="nav-dot" aria-hidden="true"></span>About</a>
+    </div>
+  </nav>
+  <main id="main" class="main-content">
+
+    <div class="page-header">
+      <div class="cq-badges">
+        <span class="cq-badge cq-badge--drive">CQ Drive</span>
+        <span class="cq-badge cq-badge--knowledge">CQ Knowledge</span>
+        <span class="cq-badge cq-badge--strategy">CQ Strategy</span>
+        <span class="cq-badge cq-badge--action">CQ Action</span>
+      </div>
+      <span class="section-label">30-Day Plan</span>
+      <h1>30-Day CQ Action Plan</h1>
+      <p class="byline">Build your personal commitment for the next 30 days</p>
+    </div>
+
+    <div class="info-box mb-24">
+      <i data-lucide="calendar" class="box-icon"></i>
+      <p>Based on what you've learned in this training, build a 30-day plan to put your CQ into practice. The plan has four sections — one for each CQ capability. Your responses are saved automatically and exported with your completion record.</p>
+    </div>
+
+    <div class="module-complete-banner" role="status" aria-live="polite">
+      <i data-lucide="check-circle-2"></i>
+      <span>Action plan saved — proceed to your CQ Post-Check</span>
+    </div>
+
+    <form id="action-plan-form">
+
+      <!-- CQ Drive -->
+      <div class="plan-section">
+        <div class="plan-section__header plan-section__header--drive">
+          <span class="cq-badge cq-badge--drive">CQ Drive</span>
+          <h3 style="margin:0; font-size:1rem;">CQ Drive — 30-Day Goal</h3>
+        </div>
+        <div class="plan-section__body">
+          <p>Drive is about motivation and confidence to work in cross-cultural situations. Where will you actively push your comfort zone in the next 30 days?</p>
+          <div class="form-group">
+            <label class="form-label" for="plan-drive">My CQ Drive commitment:</label>
+            <textarea
+              id="plan-drive"
+              name="drive"
+              class="form-textarea"
+              rows="4"
+              placeholder="e.g. I will prepare deliberately for each India-based interaction by reviewing my cultural defaults 24 hours before — no 'winging it' on the first call."
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- CQ Knowledge -->
+      <div class="plan-section">
+        <div class="plan-section__header plan-section__header--knowledge">
+          <span class="cq-badge cq-badge--knowledge">CQ Knowledge</span>
+          <h3 style="margin:0; font-size:1rem;">CQ Knowledge — 30-Day Goal</h3>
+        </div>
+        <div class="plan-section__body">
+          <p>Knowledge is about understanding how culture shapes behavior in systems. What will you learn or investigate in the next 30 days?</p>
+          <div class="form-group">
+            <label class="form-label" for="plan-knowledge">My CQ Knowledge commitment:</label>
+            <textarea
+              id="plan-knowledge"
+              name="knowledge"
+              class="form-textarea"
+              rows="4"
+              placeholder="e.g. I will read one India-based case study per week and identify which Hofstede dimension is most active in each situation."
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- CQ Strategy -->
+      <div class="plan-section">
+        <div class="plan-section__header plan-section__header--strategy">
+          <span class="cq-badge cq-badge--strategy">CQ Strategy</span>
+          <h3 style="margin:0; font-size:1rem;">CQ Strategy — 30-Day Goal</h3>
+        </div>
+        <div class="plan-section__body">
+          <p>Strategy is about planning and checking assumptions before and during interactions. How will you plan differently in the next 30 days?</p>
+          <div class="form-group">
+            <label class="form-label" for="plan-strategy">My CQ Strategy commitment:</label>
+            <textarea
+              id="plan-strategy"
+              name="strategy"
+              class="form-textarea"
+              rows="4"
+              placeholder="e.g. Before any group presentation to an India-based team, I will pre-brief the most senior member privately 24–48 hours in advance — no exceptions."
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- CQ Action -->
+      <div class="plan-section">
+        <div class="plan-section__header plan-section__header--action">
+          <span class="cq-badge cq-badge--action">CQ Action</span>
+          <h3 style="margin:0; font-size:1rem;">CQ Action — 30-Day Goal</h3>
+        </div>
+        <div class="plan-section__body">
+          <p>Action is the behavioral adaptation — doing things differently. What specific behaviors will you change or start in the next 30 days?</p>
+          <div class="form-group">
+            <label class="form-label" for="plan-action">My CQ Action commitment:</label>
+            <textarea
+              id="plan-action"
+              name="action"
+              class="form-textarea"
+              rows="4"
+              placeholder="e.g. I will replace 'Any questions?' with 'What risks do you see?' in every meeting with India-based colleagues."
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+    <div class="success-box mt-16">
+      <i data-lucide="check-circle-2" class="box-icon"></i>
+      <p>Your plan is saved automatically as you type and will appear in your completion record download.</p>
+    </div>
+
+    <div class="module-complete-banner mt-16" role="status" aria-live="polite">
+      <i data-lucide="check-circle-2"></i>
+      <span>Action plan saved — proceed to your CQ Post-Check</span>
+    </div>
+
+    <nav class="module-nav" aria-label="Module navigation">
+      <a href="capstone.html" class="btn btn--secondary"><i data-lucide="arrow-left"></i> Capstone</a>
+      <a href="cq-postcheck.html" class="btn btn--primary">CQ Post-Check <i data-lucide="arrow-right"></i></a>
+    </nav>
+
+  </main>
+  <footer class="site-footer">
+    <p>ENGR 802: Engineering Across Cultures · Penn State Great Valley · Dr. Esther Obonyo</p>
+    <p>Team: Caroline Auer · Wenkai Hu · Rickey Patel · Christopher Toevs · Aureo Zanon · November 12, 2026</p>
+  </footer>
+  <script src="https://unpkg.com/lucide@0.447.0/dist/umd/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="src/js/app.js"></script>
+  <script src="src/js/charts.js"></script>
+  <script src="src/js/interactions.js"></script>
+  <script src="src/js/completion.js"></script>
+</body>
+</html>

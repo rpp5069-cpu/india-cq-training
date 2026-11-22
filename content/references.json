@@ -1,0 +1,335 @@
+{
+  "_note": "Citations reproduced exactly as they appear in the deck reference list (slides 57–62). PROMPT.md: 'the deck has been recorded, so citations are frozen.' Where the DOCX organizer differs, the deck version is authoritative. Discrepancies flagged in content-gaps.md.",
+  "sources": [
+    {
+      "id": "atoz",
+      "apa": "Business overview. (n.d.). AtoZ International Business. Retrieved November 14, 2026, from https://www.atozinternationalbusiness.com/",
+      "intext": "(Business Overview, n.d.)",
+      "modules": ["M1", "M2", "M5", "M7"],
+      "key_claims": [
+        "India is the world's fifth-largest economy (GDP ~$3.7 trillion, IMF 2024)",
+        "Third-largest startup ecosystem globally with 100+ unicorns",
+        "Services sector ~55% of GDP; IT-BPM industry generates over $245 billion annually",
+        "Indian business culture is hierarchical and relationship-driven; decisions rarely finalize in first meetings",
+        "Labor force exceeds 500 million; ~3.1 million engineering graduates annually",
+        "India's emerging-market FDI rank: 8th in 2026 (5th in 2025)"
+      ]
+    },
+    {
+      "id": "dearing2010",
+      "apa": "Dearing, J. W., & Kreuter, M. W. (2010). Designing for diffusion: How can we increase uptake of cancer communication innovations? Patient Education and Counseling, 81(Suppl.), S100–S110. https://doi.org/10.1016/j.pec.2010.10.013",
+      "intext": "(Dearing & Kreuter, 2010)",
+      "modules": ["M7"],
+      "key_claims": [
+        "Mistake #1: Assuming technical merit sells itself — credibility must precede the product",
+        "Mistake #4: Ignoring the social system's authority structure — work through institutional hierarchies",
+        "Mistake #7: Over-relying on mass media/broadcast — seek endorsements from institutional figures and senior engineers"
+      ]
+    },
+    {
+      "id": "desmarchelier2016",
+      "apa": "Desmarchelier, B., & Fang, E. S. (2016). Before the bell curve: Technology diffusion across income groups. Research Policy, 45(6), 1069–1083.",
+      "intext": "(Desmarchelier & Fang, 2016)",
+      "modules": ["M7"],
+      "key_claims": [
+        "India's low UAI (40) means novelty is no barrier, but high PDI (77) routes adoption through authority figures",
+        "Hofstede's Power Distance and Uncertainty Avoidance dimensions alter the speed and shape of Rogers' diffusion curve"
+      ]
+    },
+    {
+      "id": "dpdp2023",
+      "apa": "Digital Personal Data Protection Act, 2023, No. 22 of 2023 (India).",
+      "intext": "(Digital Personal Data Protection Act, 2023)",
+      "modules": ["M7"],
+      "key_claims": [
+        "DPDP Act 2023 mandates data localization: AI, IoT and cloud products need compliance architecture from day one"
+      ]
+    },
+    {
+      "id": "gupta2020",
+      "apa": "Gupta, V. (2020). Relationships between leadership, motivation and employee-level innovation: Evidence from India. Personnel Review, 49(7), 1363–1379. https://doi.org/10.1108/PR-11-2019-0595",
+      "intext": "(Gupta, 2020)",
+      "modules": ["M2", "M6"],
+      "key_claims": [
+        "Hierarchical organizational cultures in Indian firms can inhibit knowledge sharing and employee-initiated creativity unless leadership explicitly creates psychological safety"
+      ]
+    },
+    {
+      "id": "heeks2001",
+      "apa": "Heeks, R., Krishna, S., Nicholson, B., & Sahay, S. (2001). Synching or sinking: Global software outsourcing relationships. IEEE Software, 18(2), 54–60. https://doi.org/10.1109/52.914744",
+      "intext": "(Heeks et al., 2001)",
+      "modules": ["M2", "M5", "Capstone-Q2"],
+      "key_claims": [
+        "Cultural and organizational barriers in global software outsourcing: communication distance, different risk tolerances, documentation expectations",
+        "Partnerships work when both sides actively close gaps in expectations and process"
+      ]
+    },
+    {
+      "id": "hofstede2010",
+      "apa": "Hofstede, G., Hofstede, G. J., & Minkov, M. (2010). Cultures and organizations: Software of the mind (3rd ed.). McGraw-Hill.",
+      "intext": "(Hofstede et al., 2010)",
+      "modules": ["M1", "M2", "M7", "Capstone-Q1", "Capstone-Q3"],
+      "key_claims": [
+        "India PDI 77, IDV 48, MAS 56, UAI 40, LTO 51, IVR 26",
+        "High PDI: strict respect for authority; chain of command highly prioritized",
+        "With PDI at 77, a disagreement may never reach the room"
+      ]
+    },
+    {
+      "id": "hofstede-insights-2026",
+      "apa": "Hofstede Insights. (2026). Country comparison tool: India. https://www.hofstede-insights.com/country-comparison/india",
+      "intext": "(Hofstede Insights, 2026)",
+      "modules": ["M1", "M7"],
+      "key_claims": [
+        "Current database source confirming India's dimension scores: PDI 77, IDV 48, MAS 56, UAI 40, LTO 51, IVR 26"
+      ]
+    },
+    {
+      "id": "house2014",
+      "apa": "House, R. J., Dorfman, P. W., Javidan, M., Hanges, P. J., & Sully de Luque, M. F. (2014). Strategic leadership across cultures: The GLOBE study of CEO leadership behavior and effectiveness in 24 countries. SAGE Publications.",
+      "intext": "(House et al., 2014)",
+      "modules": ["M2", "M3"],
+      "key_claims": [
+        "India GLOBE leadership (scale 1–7): Charismatic endorsed 5.85/observed 5.67; Team-oriented 5.73/5.48; Participative 4.99/4.74; Self-protective 3.77/4.11",
+        "Self-protective behavior exceeds endorsed ideal; Participative falls below expected level"
+      ]
+    },
+    {
+      "id": "icar2018",
+      "apa": "Indian Council of Agricultural Research. (2018, August). Hands-on training for farmers on improved agricultural implements and machinery. https://icar.org.in/en/node/3076",
+      "intext": "(Indian Council of Agricultural Research, n.d.)",
+      "modules": ["M5", "M7"],
+      "key_claims": [
+        "In Bhopal, ICAR-CIAE gave farmers hands-on practice making machinery adjustments",
+        "Institutional champions and train-the-trainer approaches overcome adoption barriers in high-PDI, low-tech-literacy contexts"
+      ]
+    },
+    {
+      "id": "isro2023",
+      "apa": "Indian Space Research Organisation. (2023). Chandrayaan-3. https://www.isro.gov.in/Chandrayaan3.html",
+      "intext": "(ISRO, 2023)",
+      "modules": ["M7"],
+      "key_claims": [
+        "Chandrayaan-3 (2023): $75M mission — 10–15× cheaper than NASA — frugal engineering as competitive advantage"
+      ]
+    },
+    {
+      "id": "joseph2025",
+      "apa": "Joseph, A., Linge, A. A., & Muley, A. (2025). Herzberg's motivation-hygiene theory and employee retention: Evidence from the IT & ITES industry. Prabandhan: Indian Journal of Management, 18(4), 72–95. https://doi.org/10.17010/pijom/2025/v18i4/174317",
+      "intext": "(Joseph et al., 2025)",
+      "modules": ["M6"],
+      "key_claims": [
+        "Indian IT-sector employees rate recognition from supervisors and job-security hygiene factors as top retention drivers",
+        "Salary ranks lower than in Western samples"
+      ]
+    },
+    {
+      "id": "juhasz2014",
+      "apa": "Juhász, I. (2014). The workforce in Indian organizations: An analysis based upon the dimensions of Hofstede's model. In J. T. Karlovitz (Ed.), Economics questions, issues and problems (pp. 38–45). International Research Institute.",
+      "intext": "(Juhász, 2014)",
+      "modules": ["M1"],
+      "key_claims": [
+        "PDI and collectivism scores show strong behavioral validity in Indian IT and engineering organizations"
+      ]
+    },
+    {
+      "id": "kearney2026",
+      "apa": "Kearney. (2026). World recalibrating: The 2026 FDI Confidence Index. https://www.kearney.com/documents/d/asset-library-291362522/world-recalibrating-the-2026-fdi-confidence-index-pdf",
+      "intext": "(Kearney, 2026)",
+      "modules": ["M5", "M7"],
+      "key_claims": [
+        "India ranked 22nd of 25 on 2026 FDI Confidence Index",
+        "Macro risks: techno-nationalism (DPDP Act 2023 data localization), quasi-nationalization (strategic sector reviews), regulatory shock"
+      ]
+    },
+    {
+      "id": "krishna2004",
+      "apa": "Krishna, S., Sahay, S., & Walsham, G. (2004). Managing cross-cultural issues in global software outsourcing. Communications of the ACM, 47(4), 62–66. https://doi.org/10.1145/975817.975818",
+      "intext": "(Krishna et al., 2004)",
+      "modules": ["M2", "Capstone-Q2"],
+      "key_claims": [
+        "Successful teams developed shared work practices through deliberate boundary-object creation (joint documentation, overlap hours, joint prototyping)",
+        "With UAI at 40, a verbal 'we've got it' may mean 'we'll try'"
+      ]
+    },
+    {
+      "id": "meyer2014",
+      "apa": "Meyer, E. (2014). The culture map: Breaking through the invisible boundaries of global business. PublicAffairs.",
+      "intext": "(Meyer, 2014)",
+      "modules": ["M2", "M7", "Capstone-Q1", "Capstone-Q3"],
+      "key_claims": [
+        "Three-step cross-cultural change framework: (1) brief the senior lead privately 24–48 hrs before any group presentation, (2) frame as a local win not a foreign import, (3) run a formal pilot with one respected institutional champion before scaling",
+        "Objections tend to surface one-on-one, not in the big review"
+      ]
+    },
+    {
+      "id": "mof2024",
+      "apa": "Ministry of Finance. (2024, September 20). DFS drives expansion of digital payments in India and abroad [Press release]. Press Information Bureau.",
+      "intext": "(Ministry of Finance, 2024)",
+      "modules": ["M7"],
+      "key_claims": [
+        "Digital-payments growth as a share of GDP; India's digital economy trajectory"
+      ]
+    },
+    {
+      "id": "npci2024",
+      "apa": "National Payments Corporation of India. (2024). UPI product statistics. https://www.npci.org.in/what-we-do/upi/upi-ecosystem-statistics",
+      "intext": "(NPCI, 2024)",
+      "modules": ["M7"],
+      "key_claims": [
+        "UPI transactions: 0.92 billion (FY2018) → 131.1 billion (FY2024), ~140× increase in six years",
+        "UPI passed 10 billion transactions/month (2023) only after a government mandate"
+      ]
+    },
+    {
+      "id": "nspe2019",
+      "apa": "National Society of Professional Engineers. (2019). NSPE code of ethics for engineers. https://www.nspe.org/career-growth/ethics/nspe-code-ethics-engineers",
+      "intext": "(NSPE, n.d.)",
+      "modules": ["M3", "M5"],
+      "key_claims": [
+        "Six fundamental canons: public safety paramount (Canon I.1), honest practice (Canon II.3.a)",
+        "Canon I.1 and Rules II.1.b apply to critical tolerances before tooling sign-off"
+      ]
+    },
+    {
+      "id": "nilekani2015",
+      "apa": "Nilekani, N., & Shah, V. (2015). Rebooting India: Realizing a billion aspirations. Penguin Books.",
+      "intext": "(Nilekani & Shah, 2015)",
+      "modules": ["M7"],
+      "key_claims": [
+        "Government mandate (Jan Dhan Yojana + Aadhaar + Mobile) created the champion-and-mandate accelerator that pushed UPI past the Rogers early-majority tipping point"
+      ]
+    },
+    {
+      "id": "nimmi2023",
+      "apa": "Nimmi, P. M., & Jakubik, M. (2023). Achieving workplace wellbeing among Indian IT engineers. Journal of Career Development, 50(5), 1097–1115. https://doi.org/10.1177/08948453231154890",
+      "intext": "(Nimmi & Jakubik, 2023)",
+      "modules": ["M6"],
+      "key_claims": [
+        "Wellbeing interventions tied to managerial support significantly outperform individually-targeted wellness programs for Indian IT engineers"
+      ]
+    },
+    {
+      "id": "oecd2023",
+      "apa": "OECD. (2023). OECD guidelines for multinational enterprises on responsible business conduct. https://doi.org/10.1787/81f92357-en",
+      "intext": "(OECD, 2023)",
+      "modules": ["M5"],
+      "key_claims": [
+        "Chapter VIII, paragraphs 1–2: address foreseeable misuse and safe use obligations",
+        "Due diligence, labor rights, environmental responsibility, and anti-corruption obligations for MNEs in developing markets"
+      ]
+    },
+    {
+      "id": "pavitra2023",
+      "apa": "Pavitra, K. H., & Sarikwal, L. (2023). Power distance orientation as a moderator of psychological ownership–constructive voice to supervisor relationships in IT services organisations of India. International Journal of Indian Culture and Business Management, 29(1), 114–135. https://doi.org/10.1504/IJICBM.2023.130926",
+      "intext": "(Pavitra & Sarikwal, 2023)",
+      "modules": ["M7"],
+      "key_claims": [
+        "High-PDI orientation suppresses constructive upward voice to supervisors — ideas must be actively solicited rather than expected to surface"
+      ]
+    },
+    {
+      "id": "psu-motivation",
+      "apa": "Pennsylvania State University. (n.d.-a). Several well-known motivational theories [Course material]. ENGR 802: Engineering Across Cultures. https://psu.instructure.com/courses/2482833/pages/several-well-known-motivational-theories",
+      "intext": "(Pennsylvania State University, n.d.-a)",
+      "modules": ["M6"]
+    },
+    {
+      "id": "psu-leadership",
+      "apa": "Pennsylvania State University. (n.d.-b). Strategic leadership across cultures [Course material]. ENGR 802: Engineering Across Cultures. https://psu.instructure.com/courses/2482833/pages/strategic-leadership-across-cultures",
+      "intext": "(Pennsylvania State University, n.d.-b)",
+      "modules": ["M3"]
+    },
+    {
+      "id": "psu-ethics",
+      "apa": "Pennsylvania State University. (2026). International code of conduct for MNEs: Focus on application [Course material]. ENGR 802: Engineering Across Cultures. https://psu.instructure.com/courses/2482833/pages/international-code-of-conduct-for-mnes-%7C-focus-on-application",
+      "intext": "(Penn State, n.d.)",
+      "modules": ["M5"]
+    },
+    {
+      "id": "radjou2012",
+      "apa": "Radjou, N., Prabhu, J., & Ahuja, S. (2012). Jugaad innovation: Think frugal, be flexible, generate breakthrough growth. Jossey-Bass.",
+      "intext": "(Radjou et al., 2012)",
+      "modules": ["M7"],
+      "key_claims": [
+        "Jugaad (frugal, flexible, good-enough innovation) is a culturally embedded Indian innovation paradigm that accelerates grassroots technology adoption"
+      ]
+    },
+    {
+      "id": "rogers2003",
+      "apa": "Rogers, E. M. (2003). Diffusion of innovations (5th ed.). Free Press.",
+      "intext": "(Rogers, 2003)",
+      "modules": ["M7"],
+      "key_claims": [
+        "Adopter categories: innovators 2.5%, early adopters 13.5%, early majority 34%, late majority 34%, laggards 16%",
+        "16% tipping point: innovators + early adopters",
+        "Five innovation characteristics: relative advantage, compatibility, complexity, trialability, observability",
+        "UPI: relative advantage (free, instant, 24/7 vs cash), compatibility (any smartphone; Aadhaar-linked), complexity (single QR scan), trialability (₹0 to try), observability (peer-to-peer visible at every chai stall)"
+      ]
+    },
+    {
+      "id": "culture-factor-group",
+      "apa": "The Culture Factor Group. (n.d.). Country comparison tool. Retrieved November 14, 2026, from https://www.theculturefactor.com/country-comparison-tool",
+      "intext": "(The Culture Factor Group, n.d.)",
+      "modules": ["M1"]
+    },
+    {
+      "id": "iei2004",
+      "apa": "The Institution of Engineers (India). (2004, March 1). Code of ethics for corporate members. https://www.ieijammu.org/codeofethics.php",
+      "intext": "(IEI, 2004)",
+      "modules": ["M5"],
+      "key_claims": [
+        "§§ 2.1, 2.7: public safety, honest practice",
+        "§§ 4.1, 4.3–4.5: impartial supplier selection",
+        "§§ 2.1, 2.6: operator instructions and safe use"
+      ]
+    },
+    {
+      "id": "worldbank2022a",
+      "apa": "World Bank. (2022a). Enterprise Surveys: India 2022 country profile. https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/India-2022.pdf",
+      "intext": "(World Bank, 2022)",
+      "modules": ["M5", "M7"],
+      "key_claims": [
+        "27.2% of surveyed firms reporting a bribe request",
+        "Structural adoption barriers: power reliability, logistics, bureaucratic red tape"
+      ]
+    },
+    {
+      "id": "worldbank2022b",
+      "apa": "World Bank. (2022b). The Global Findex Database 2021: Financial inclusion, digital payments, and resilience in the age of COVID-19. https://doi.org/10.1596/978-1-4648-1897-4",
+      "intext": "(World Bank, 2022b)",
+      "modules": ["M7"],
+      "key_claims": [
+        "Government mandate (Jan Dhan Yojana) expanded financial-services access to previously unbanked populations"
+      ]
+    }
+  ],
+  "personal_communications": [
+    {
+      "id": "mark-interview",
+      "citation": "Mark, personal communication, November 14, 2026",
+      "note": "In-text only — not listed in APA reference list per APA 7th ed. Mark is Director of Network Development interviewed by team member Christopher Toevs. Identified by first name and general professional description only.",
+      "modules": ["M1", "M2", "M5", "M7"],
+      "key_claims": [
+        "Technical expertise carried weight on team; local department heads and senior staff played important role in coordinating work",
+        "Issues went unmentioned in meetings after bad news was delivered; more one-on-ones and involving local leads improved information flow",
+        "Rollout setback: issues went unmentioned in group meetings until senior clearance was given — PDI silence confirmed in practice",
+        "Internal champions with organizational authority were essential to overcoming adoption resistance"
+      ]
+    },
+    {
+      "id": "classmate-questions",
+      "citation": "ENGR802 classmates, personal communications, October 5–11, 2026",
+      "note": "In-text only. 18 questions from class discussion of Japan–India Shinkansen case.",
+      "modules": ["Capstone"]
+    },
+    {
+      "id": "cq-assessment",
+      "citation": "CQ Pro Report, self-rating (Cultural Intelligence Center, 2026)",
+      "note": "Personal assessment — not in APA reference list per APA 7th ed.",
+      "modules": ["M4"]
+    }
+  ],
+  "ai_disclosure": "Claude (Anthropic), accessed via Microsoft Copilot / PSU AI Studio, was used to: (1) organize the team's compiled 32-reference list; (2) check APA 7th edition formatting; (3) draft section-by-section evidence descriptions from slide notes; (4) suggest slide number assignments for Section 7 references. All slide content, analysis, and interview data were written and verified by the student. Personal reflections (Section 4) were written without AI assistance per course AI policy.",
+  "ai_apa": "Anthropic. (2026). Claude [Large language model]. https://claude.ai"
+}
