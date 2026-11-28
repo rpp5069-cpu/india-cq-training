@@ -254,24 +254,24 @@
   "capstone_questions": [
     {
       "id": "Q1",
-      "question": "Who has the final say when engineers disagree?",
-      "slides": "52–54",
+      "question": "When Indian and Japanese engineers disagree about a design change, who should have final approval, and how can that process preserve both safety and trust?",
+      "slides": "52",
       "modules_drawn": ["M1", "M2", "M3"],
-      "model_answer_status": "pending"
+      "model_answer_status": "final"
     },
     {
       "id": "Q2",
-      "question": "Who owns a failure at the interfaces?",
-      "slides": "52–54",
+      "question": "When it comes to the cooperation and mix of Japanese track design, European signaling, and Indian rolling stock, who would own a failure at those interfaces, and how should the partnership define accountability before the first incident rather than after?",
+      "slides": "53",
       "modules_drawn": ["M2", "M5", "M7"],
-      "model_answer_status": "pending"
+      "model_answer_status": "final"
     },
     {
       "id": "Q3",
-      "question": "Which CQ capability comes first?",
-      "slides": "52–54",
+      "question": "If you were leading an engineering team in India working with Japanese partners on the bullet train project, which CQ capability would you prioritize first, and how would you use it to navigate differences in communication, planning, and engineering standards?",
+      "slides": "54",
       "modules_drawn": ["M1", "M4", "M6"],
-      "model_answer_status": "pending"
+      "model_answer_status": "final"
     }
   ]
 }
