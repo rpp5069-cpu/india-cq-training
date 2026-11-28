@@ -330,6 +330,6 @@
       "modules": ["M4"]
     }
   ],
-  "ai_disclosure": "Claude (Anthropic), accessed via Microsoft Copilot / PSU AI Studio, was used to: (1) organize the team's compiled 32-reference list; (2) check APA 7th edition formatting; (3) draft section-by-section evidence descriptions from slide notes; (4) suggest slide number assignments for Section 7 references. All slide content, analysis, and interview data were written and verified by the student. Personal reflections (Section 4) were written without AI assistance per course AI policy.",
+  "ai_disclosure": "Claude (Anthropic), accessed via Microsoft Copilot / PSU AI Studio, was used to: (1) organize the team's compiled 32-reference list; (2) check APA 7th edition formatting; (3) write section-by-section evidence descriptions from slide notes; (4) suggest slide number assignments for Section 7 references. All slide content, analysis, and interview data were written and verified by the student. Personal reflections (Section 4) were written without AI assistance per course AI policy.",
   "ai_apa": "Anthropic. (2026). Claude [Large language model]. https://claude.ai"
 }
